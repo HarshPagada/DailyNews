@@ -194,7 +194,7 @@ const News = (props) => {
     console.log(parseData)
     setArticles(articles.concat(parseData.articles))
     setTotalResults(parseData.totalResults)
-    // setLoading(false)
+    setLoading(false)
   }
 
   return (
